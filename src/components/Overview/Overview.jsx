@@ -25,7 +25,9 @@ const Overview = () => {
           <div className={styles.knowmore}>Know More</div>
         </div>
       </div>
-      <div className={styles.bottom}></div>
+      <div className={styles.bottom}>
+        
+      </div>
     </div>
   );
 };
