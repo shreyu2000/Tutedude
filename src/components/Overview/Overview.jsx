@@ -1,36 +1,33 @@
-import React from 'react'
-import styles from './Overview.module.css'
-import Chips from '../Chips/Chips'
+import React from "react";
+import styles from "./Overview.module.css";
+import Chips from "../Chips/Chips";
 
 const Overview = () => {
+  const chipsText = [
+    "Personal Mentorship",
+    "Internship Assistance",
+    "Industry Certified Courses",
+  ];
   return (
     <div>
       <div>
-      <div>
-      An IIT Delhi Alumni Initiative
+        <div className={styles.heading}>An IIT Delhi Alumni Initiative</div>
+        <div><h1 className={styles.mainheading}>Become an Expert in the field of Data Science with 6 courses</h1></div>
+        <p>A specially crafted Tech Kickstarter, with 5+ extensive online courses.</p>
+        <div className={styles.chips}>
+          {/* Pass the text prop to each Chips component */}
+          {chipsText.map((text, index) => (
+            <Chips key={index} text={text} />
+          ))}
+        </div>
+        <div>
+          <div className={styles.enroll}>Enroll Now</div>
+          <div className={styles.knowmore}>Know More</div>
+        </div>
       </div>
-      <div>
-      Become an Expert in the field of Data Science with 6 courses
-      </div>
-      <p>
-      Become an Expert in the field of Data Science with 6 courses
-      </p>
-      <div className={styles.chips}>
-        <Chips text={PersonalMentorship} />
-        <Chips/>
-        <Chips/>
-      </div>
-      <div>
-        <div className={styles.enroll}>Enroll Now</div>
-        <div>Know More</div>
-      </div>
-
-      </div>
-      <div className={styles.bottom}>
-
-      </div>
+      <div className={styles.bottom}></div>
     </div>
-  )
-}
+  );
+};
 
-export default Overview
+export default Overview;
