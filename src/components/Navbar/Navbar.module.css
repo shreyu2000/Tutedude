@@ -1,0 +1,48 @@
+.navbar {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    height: 120px;
+    
+}
+
+.header{
+   display:  flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 60%;
+   padding: 1.4rem  3rem;
+   border: 1px solid;
+   font-size: 16px;
+}
+
+.auth{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3B3B3E;
+    color: #CFD0D2;
+    height: 40%;
+}
+.login{
+
+}
+.signup{
+    
+}
+.navigation p{
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.navigation p:hover{
+    border-bottom: 2px solid  Orange;
+    color: #fff;
+}
