@@ -1,0 +1,24 @@
+.curriculumframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans";
+
+}
+.curriculumframe img{
+    width: 62px;
+    height: 62px;
+}
+
+.curriculumframe div {
+    display: inline;
+    margin-left: 10px;
+}
+.curriculumframe div span{
+    color: #992E9D;
+    font-size: 38px;
+}
+.curriculumframe div p {
+    color: #686972;
+    font-size: 22px;
+}

@@ -1,5 +1,76 @@
+.container{
+  padding: 60px;
+  height: 550px;
+  width: 800px;
+  margin: 10px 50px;
+  font-family: "Poppins"; 
 
+}
 
 .chips{
     display: flex;
+    margin-top: 10px;
+}
+.heading{
+    border: 1px solid #FFA50B;
+    display:inline-flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 14px;
+}
+.heading img{
+    margin-right: 10px;
+}
+
+.mainheading{
+    font-size: 52px;
+    color: #595961;
+    width: 100%;
+    
+}
+.mainheading span {
+    color: #992E9D;
+}
+
+.para{
+    color: #434347;
+    size: 20px;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 20px;
+}
+
+.enroll ,.knowmore{
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    font-size: #FCF5FE;
+    font-size: 16px;
+}
+
+.enroll{
+    background: #B73BBE;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: 600;
+
+}
+.knowmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #992E9D;
+    font-weight: 600;
+}
+.knowmore img{
+    margin-left: 8px;
+}
+.enroll img{
+    margin-left: 8px;
 }
