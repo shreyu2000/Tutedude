@@ -1,4 +1,58 @@
 .container{
-    height: 900px;
+    height: 850px;
     width: 100vw;
+    background: #FCF5FE;
+    font-family: "Poppins";
+    margin-top: 100px;
+    padding: 20px 0;
+}
+
+.heading{
+    width: 410px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #F4D6F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    background: #F9EBFC;
+    border-radius: 100px;
+    color: #992E9D;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.mainHead{
+    margin: auto;
+    width: 750px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    color: #4C4D52;
+    font-weight: 700;
+
+}
+.mainHead p span{
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(92.04deg, #B73BBE 49.96%, #EBCB2E 99.23%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.chips{
+    height: 480px;
+    width: 1000px;
+    border: 1px solid #E5E5E8;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    border-radius: 20px;
+   
 }

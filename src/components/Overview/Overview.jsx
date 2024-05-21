@@ -4,6 +4,7 @@ import Chips from "../Chips/Chips";
 import graduation_hat from "../../assets/icons/Graduation hat.svg";
 import arrow_up from '../../assets/icons/arrow-up.svg'
 import interrogation from '../../assets/icons/fi-br-interrogation.svg'
+import BottomFrame from "./BottomFrame";
 
 const Overview = () => {
   const chipsText = [
@@ -13,7 +14,8 @@ const Overview = () => {
   ];
 
   return (
-    <div className={styles.container}>
+    <>
+    <div id="overview" className={styles.container}>
       <div>
         <div className={styles.heading}>
           {" "}
@@ -42,6 +44,9 @@ const Overview = () => {
         </div>
       </div>
     </div>
+    <BottomFrame/>
+    </>
+
   );
 };
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './Navbar.module.css'
+import { Link as ScrollLink } from 'react-scroll';
+
 
 const Navbar = () => {
   return (
@@ -14,10 +16,10 @@ const Navbar = () => {
       </div>
     </div>
       <div className={styles.navigation}>
-        <p>Overview</p>
-        <p>Curriculum</p>
-        <p>Refund</p>
-        <p>Testimonials</p>
+      <ScrollLink to="overview" smooth={true} duration={500} className={styles.navLink}>Overview</ScrollLink>
+        <ScrollLink to="curriculum" smooth={true} duration={500} className={styles.navLink}>Curriculum</ScrollLink>
+        <ScrollLink to="refund" smooth={true} duration={500} className={styles.navLink}>Refund</ScrollLink>
+        <ScrollLink to="testimonials" smooth={true} duration={500} className={styles.navLink}>Testimonials</ScrollLink>
       </div>
     </div>
   )

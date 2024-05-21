@@ -47,12 +47,14 @@
     cursor: pointer;
 
 }
-.navigation p{
+.navLink{
     margin: 10px 20px;
     cursor: pointer;
     font-size: 16px;
+    text-decoration: none;
+    color:inherit ;
 }
-.navigation p:hover{
+.navLink:hover{
     border-bottom: 2px solid  Orange;
     color: #fff;
 }

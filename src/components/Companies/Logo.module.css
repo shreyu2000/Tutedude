@@ -1,0 +1,12 @@
+.logo{
+    width: 230px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: #374957;
+    border-radius: 20px;
+    background: #fff;
+    font-weight: 700;
+}
